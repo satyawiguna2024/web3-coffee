@@ -8,6 +8,10 @@
   --breakpoint-xs: 425px;
 }
 
+body {
+  background-color: white;
+}
+
 .container-costume {
   @apply w-full max-w-[1200px] mx-auto;
 }
