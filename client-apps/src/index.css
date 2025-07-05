@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-raleway: 'Raleway', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+
+  --breakpoint-xs: 425px;
+}
+
+.container-costume {
+  @apply w-full max-w-[1200px] mx-auto;
+}
