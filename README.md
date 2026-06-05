@@ -1,55 +1,78 @@
-## Getting Started
+# ☕ Buy Me Coffee DApp
 
-Create a project using this example:
+A decentralized application (DApp) that allows users to support creators by sending coffee donations directly through the blockchain. Built with Thirdweb smart contracts and a React.js frontend.
 
-```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
-```
+## 🔗 Live Demo
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+🌐 **Website:** https://buy-me-a-coffee-drab.vercel.app
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
+---
 
-## Building the project
+## 📖 Overview
 
-After any changes to the contract, run:
+Buy Me Coffee is a Web3 application that enables supporters to send cryptocurrency donations to creators in a transparent and decentralized way.
 
-```bash
-npm run build
-# or
-yarn build
-```
+The application leverages Thirdweb for smart contract deployment and blockchain interactions, while the frontend is built using React.js with the Thirdweb CLI.
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
+---
 
-## Deploying Contracts
+## ✨ Features
 
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
+* 🔗 Connect crypto wallet
+* ☕ Send coffee donations on-chain
+* 📝 Leave a message with each donation
+* 📜 View donation history
+* ⚡ Fast blockchain interaction using Thirdweb SDK
+* 📱 Responsive user interface
 
-```bash
-npm run deploy
-# or
-yarn deploy
-```
+---
 
-> [!IMPORTANT]
-> This requires a secret key to make it work. Get your secret key [here](https://thirdweb.com/dashboard/settings/api-keys).
-> Pass your secret key as a value after `-k` flag.
-> ```bash
-> npm run deploy -- -k <your-secret-key>
-> # or
-> yarn deploy -k <your-secret-key>
+## 🛠️ Tech Stack
 
-## Releasing Contracts
+### Frontend
 
-If you want to release a version of your contracts publicly, you can use one of the followings command:
+* React.js
+* Vite
+* Thirdweb React SDK
+* CSS / Tailwind CSS
 
-```bash
-npm run release
-# or
-yarn release
-```
+### Blockchain
 
-## Join our Discord!
+* Thirdweb
+* Solidity Smart Contract
+* EVM Compatible Network
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+### Wallet Integration
+
+* MetaMask
+
+### Network
+
+* Sepolia Testnet
+
+---
+
+## 📸 Screenshots
+
+<h3>Home Page</h3>
+<img src="./screenshoot-image/example1.png" alt="Home Page" width="500" />
+
+<h3>Donation Page</h3>
+<img src="./screenshoot-image/example2.png" alt="Donation Page" width="500" />
+
+
+<h3>Wallet Connected</h3>
+<img src="./screenshoot-image/example3.png" alt="Wallet Connected" width="500" />
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
+
+* GitHub: https://github.com/yourusername
+* LinkedIn: https://linkedin.com/in/yourprofile
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
