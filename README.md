@@ -70,8 +70,8 @@ The application leverages Thirdweb for smart contract deployment and blockchain 
 
 **Your Name**
 
-* GitHub: https://github.com/yourusername
-* LinkedIn: https://linkedin.com/in/yourprofile
+* GitHub: https://github.com/satyawiguna2024
+* LinkedIn: https://www.linkedin.com/in/i-made-satya-wiguna-076313374/
 
 ---
 
